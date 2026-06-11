@@ -5,13 +5,13 @@ Student = Query()
 
 # Thêm sinh viên
 db.insert({
-    'id': 'SV001',
+    'id': '23010178',
     'name': 'Nguyen Huy Hiep',
     'gpa': 3.5
 })
 
 # Tìm sinh viên
-student = db.search(Student.id == 'SV001')
+student = db.search(Student.id == '23010178')
 print(student)
 
 # Cập nhật GPA
