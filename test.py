@@ -6,7 +6,7 @@ Student = Query()
 # Thêm sinh viên
 db.insert({
     'id': 'SV001',
-    'name': 'Nguyen Van A',
+    'name': 'Nguyen Huy Hiep',
     'gpa': 3.5
 })
 
